@@ -17,5 +17,6 @@ function onClickSubmit(){
     milk.sample = sample;
     milk.fat = fat;
     console.log(milk);
-    document.getElementById("pResult").innerHTML = milk;
-}   
+    document.getElementById("pResult").innerHTML = "<pre>" + JSON.stringify(milk, null, 2) + "</pre>";
+}
+
