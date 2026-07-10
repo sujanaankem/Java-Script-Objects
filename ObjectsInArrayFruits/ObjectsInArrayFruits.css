@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/035/357/166/large_2x/ai-generated-fresh-tropical-fruits-as-background-top-view-of-natural-fruits-full-screen-image-photo.jpg); 
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+#divFruits {
+    display: flex;
+    row-gap: 11px;
+    max-width: 270px;
+    flex-direction: column;
+    margin: 0px auto;
+    padding-top: 10px;
+    height: 500px;
+    width: 275px;
+    padding: 30px;
+    background-color: white;
+}
