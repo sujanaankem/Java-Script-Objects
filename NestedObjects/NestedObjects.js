@@ -35,7 +35,7 @@ function onClickReadKeys() {
     }
 
 
-} 1
+} 
 
 function onClickObjectKeys() {
 
