@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bottle batch </title>
+    <script src="ObjectsInArrayBottle.js"></script>
+    <style>
+
+        body {
+            background-image: url(https://img.freepik.com/premium-photo/collection-bottles-water-from-companys-collection_906149-123308.jpg);
+        }
+        #divBottle{
+            display: flex;
+            row-gap: 11px;
+            max-width: 270px;
+            flex-direction: column;
+            margin: 0px auto;
+            padding-top: 10px;
+            height: 53S0px;
+            width: 275px;
+            padding: 30px;
+            background-color: white
+        }
+    </style>
+</head>
+
+<body>
+    <div id="divBottle">
+    <h2>Bottle batch </h2>
+    <p>Clear information about bottle batch no and colour and some of its details:</p>
+    <label for="lblbrand">Bottle brand:</label>
+    <input id="txtbrand" type="text">
+    <label for="lblbatchNo">Batch no</label>
+    <input id="txtbatchNo" type="number">
+    <label for="lblcolour">Colour</label>
+    <input id="txtcolour" type="text">
+    <label for="lblcapacity">Capacity</label>
+    <input id="txtcapacity" type="text" placeholder="1 ltr/2ltrs">
+    <label for="lblmodel">Model</label>
+    <input id="txtmodel" type="text" placeholder="Sipper/oppen">
+    <label for="lbltype">Type</label>
+    <input id="txttype" type="text" placeholder="Plastic/Glass/Steel">
+    <button id="btnSubmit" onclick="onClickSubmit()">Submit</button>
+    </div>
+    <div style="background-color: rgb(226, 17, 17);width: fit-content;display: table-caption;margin-left: 513px;">
+    <p  id="pResult"></p>
+    </div>
+</body>
+
+</html>
